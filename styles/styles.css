@@ -1,36 +1,36 @@
-
-main{
-    width: 840px;
+main {
+    max-width: 840px;
 }
 
-aside{
+aside {
     width: 15em;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); 
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
-    
+
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+
 }
 
-
-
-
-nav{
+nav {
     background-color: darkblue;
     padding: 10px;
 }
-
 
 nav a {
     color: white;
@@ -38,28 +38,23 @@ nav a {
     padding: 20px;
 }
 
-h1{
+h1 {
     color: darkblue;
 }
 
-img{
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     box-shadow: 0 0 30px gray;
 }
 
-
-p{
+p {
     padding: 0px;
 }
 
-footer{
+footer {
     margin-top: 1.5px;
     border-top: 1.5px;
     text-align: center;
 }
-
-
-
-
