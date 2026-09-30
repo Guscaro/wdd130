@@ -1,0 +1,176 @@
+:root {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #000;
+    background: burlywood;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: lightgrey;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: yellow;
+    font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+input [type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 150px;
+    margin: 1rem;
+    background-color: chocolate;
+    color: navy;
+    border: none;
+    border-radius: .5rem;
+    padding: .50rem;
+    font-size: 20px;
+    justify-self: center
+    ;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8em;
+    color: darkblue;
+    border-top: 1px solid darkgray;
+    padding: 0.5em;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin-bottom: 8px;
+    
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    
+    
+    
+    
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5 0;
+    align-items: center;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.form-section {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.form-section2 {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+
+    
+    
+}
+
+.centered-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    font-size: 1rem;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.pet{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pet{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+    
