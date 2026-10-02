@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #005b94;
-    --secondary-color: #34495E;
-    --accent1-color: #E05A47;
-    --accent2-color: #2b2d42;
+    --primary-color: #2b2d42;
+    --secondary-color: #1d2d44;
+    --accent1-color: #00a8e8;
+    --accent2-color: #212529;
     --heading-font: "Monserrat", serif;
     --body-font: "Open Sans", Arial, sans-serif;
 }
@@ -121,7 +121,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #f1f5f9;
+    color: var(--accent2-color)
 }
 
 .hero article { 
