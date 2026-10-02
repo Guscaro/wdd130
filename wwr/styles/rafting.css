@@ -2,7 +2,7 @@
     --primary-color: #005b94;
     --secondary-color: #34495E;
     --accent1-color: #E05A47;
-    --accent2-color: #f4f7f9;
+    --accent2-color: #2b2d42;
     --heading-font: "Monserrat", serif;
     --body-font: "Open Sans", Arial, sans-serif;
 }
@@ -110,7 +110,7 @@ article {
 .hero img {
     display: block;
     width: 100%;
-    height: auto; /*this is to modify the size of the Z splash image*/
+    height: auto; 
 }
 
 h1 {
@@ -170,7 +170,7 @@ footer p {
     grid-column: 1 / span 3;
     text-align: center;
     margin-top: 0;
-    margin-bottom: px;
+    margin-bottom: 0px;
     color: var(--accent2-color);
 
 }
@@ -213,7 +213,7 @@ footer {
     align-items: center;
     height: 80px;
     margin: 10px auto;
-    border-top: 5px solid ;
+    border-top: 5px solid var(--primary-color);
     
 }
 
