@@ -27,7 +27,6 @@ footer {
 
 }
 
-
 header {
     display: grid;
     grid-template-columns: max-content 1fr;
@@ -59,7 +58,7 @@ nav a {
     padding: 10px 20px;
     display: block;
     text-align: center;
-    background-color: #ffffff;
+    background-color: none;
     border: 1px solid #000000;
     border-left: none;
 
@@ -103,14 +102,13 @@ article {
 .hero {
     position: relative;
     margin-bottom: 10px;
-    
 
 }
 
 .hero img {
     display: block;
     width: 100%;
-    height: auto; 
+    height: auto;
 }
 
 h1 {
@@ -124,13 +122,12 @@ h1 {
     color: var(--accent2-color)
 }
 
-.hero article { 
+.hero article {
     position: absolute;
-    
+
     top: 350px;
     opacity: 0.7;
     background-color: var(--accent1-color)
-    
 }
 
 article p {
@@ -159,7 +156,7 @@ footer p {
     max-width: 950px;
     width: 100%;
     padding: 20px;
-    margin:  0px auto;
+    margin: 0px auto;
     background-color: var(--accent1-color);
     border: 1px solid #000000;
     color: var(--accent2-color);
@@ -187,6 +184,7 @@ footer p {
     grid-column: 1 / span 5;
     color: var(--accent2-color);
 }
+
 .adventures-section {
     display: grid;
     gap: 15px;
@@ -197,7 +195,7 @@ footer p {
     margin-top: 10px;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-    
+
 }
 
 .adventures-section img {
@@ -206,7 +204,6 @@ footer p {
     object-fit: cover;
 }
 
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -214,6 +211,98 @@ footer {
     height: 80px;
     margin: 10px auto;
     border-top: 5px solid var(--primary-color);
-    
 }
 
+/*contact information layout*/
+
+.contact-main {
+    display: grid;
+
+}
+
+.company-address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.company-address h1 {
+    position: static;
+    background: none;
+}
+
+.map-container {
+    grid-column: 1 / 3;
+    grid-row: 2;
+
+}
+
+.contact-form {
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+fieldset {
+    border: none;
+    grid-column: 1 / 4;
+    width: 100%;
+
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+}
+
+.form-item input {
+    display: inline;
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-item label {
+    display: inline;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+
+}
+
+.map-container iframe {
+    width: 400px;
+    height: 350px;
+}
+
+.adventures-section {
+    grid-column: 1 / 4
+}

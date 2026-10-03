@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <meta name="description"
+      content="Contact Information about Gustavo Camargo Rafting Company, our expert guides and our thrilling white-water rafting adventures.">
+    <meta name="author" content="Gustavo Camargo">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="Splash Rafting Logo" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <div class="company-address">
+            <h1>Z-SPLASH RAFTING COMPANY</h1>
+            <P>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>Phone: +1 999 999 9999</p>
+            <p>Email: info@zsplash.com</P>
+        </div>
+        <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44848.48079233934!2d-65.13730399687223!3d-16.984217632975263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1791032816755!5m2!1sen!2sus"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <form class="contact-form">
+            <div>
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" placeholder="Placeholder" required>
+            </div>
+
+            <div>
+                <label for="useremail">Email</label>
+                <input type="email" id="useremail" placeholder="Placeholder" required>
+            </div>
+
+            <fieldset class="purpose-group">
+                <legend>Message Purpose</legend>
+                <div class="form-item">
+                    <input type="radio" id="general" name="purpose" value="general">
+                    <label for="general">General Inquiry</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="radio" id="website" name="purpose" value="website">
+                    <label for="website">Website Suggestion</label>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item checkbox">
+                    <input type="checkbox" id="subscribe" name="newsletter">
+                    <label for="subscribe">Please Subscribe me to the monthyly newsletter</label>
+                </div>
+
+                <div class="form-item">
+                    <button type="submit">Get in touch!</button>
+                </div>
+
+
+            </fieldset>
+
+        </form>
+
+        <section class="adventures-section">
+            <h2>We Are Here to Serve You</h2>
+
+            <figure>
+                <img src="images/david-reynolds.jpg" alt="David Reynolds profile picture">
+                <figcaption>David Reynolds</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sarah-jenkins.jpg" alt="Sarah Jenkins profile picture">
+                <figcaption>Sarah Jenkins</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/marcus-vance.jpg" alt="Marcus Vance profile picture">
+                <figcaption>Marcus Vance</figcaption>
+            </figure>
+
+        </section>
+    </main>
+    <footer class="contact-footer">
+        <p>©️2026 🛟 Z-SPLASH 🛟 Gustavo Camargo</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.png" alt="Facebook Icon" width="160">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-logo.jpeg" alt="Instagram Icon">
+            </a>
+            <a href="https://whatsapp.com">
+                <img src="images/whatsapp-logo.png" alt="WhatsApp Icon" width="120">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
