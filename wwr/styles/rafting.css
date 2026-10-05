@@ -147,7 +147,7 @@ article p {
 
 footer p {
     margin-left: 1rem;
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 .history-section {
@@ -212,6 +212,7 @@ footer {
     height: 80px;
     margin: 10px auto;
     border-top: 5px solid var(--primary-color);
+
 }
 
 /*contact information layout*/
