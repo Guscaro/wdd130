@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #2b2d42;
-    --secondary-color: #1d2d44;
-    --accent1-color: #00a8e8;
-    --accent2-color: #ffffff;
+    --primary-color: #1e293b;
+    --secondary-color: #ffffff;
+    --accent1-color: #e2e8f0;
+    --accent2-color: #0f172a;
     --heading-font: "Monserrat", serif;
     --body-font: "Open Sans", Arial, sans-serif;
 }
@@ -330,7 +330,7 @@ form {
     box-sizing: border-box;
     margin: 0;
     margin-top: 10px;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     padding: 20px;
 
