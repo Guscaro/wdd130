@@ -213,3 +213,132 @@ footer {
     margin: 10px auto;
     border-top: 5px solid var(--primary-color);
 }
+
+/*contact information layout*/
+
+.contact-main {
+    display: grid;
+
+}
+
+.company-address {
+    grid-column: 1 / span 2;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.company-address h1 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+
+}
+
+.map-container {
+    grid-column: 1 / 2;
+
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-item label {
+    width: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.purpose-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.section-title {
+    width: 80px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.radio-choices {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-choices label {
+    display: inline;
+    width: auto;
+    font-weight: normal;
+}
+
+.form-checkbox {
+    margin-top: 10px;
+}
+
+.form-item button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+form {
+    margin-left: 40px;
+}
+
+.map-container iframe {
+    width: 400px;
+    height: 350px;
+}
+
+.employee-section h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.employee-section {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 10px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 20px;
+
+}
+
+.employee-section img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+}
