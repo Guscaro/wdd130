@@ -379,7 +379,6 @@ form {
 .home-form{
 
     color: var(--primary-color);
-    padding: 30px;
     max-width: 400px;
     text-align: left;
     background-color: var(--accent1-color);
